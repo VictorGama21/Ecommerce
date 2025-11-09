@@ -1,7 +1,7 @@
 import mercadopago
 
-public_key = "APP_USR-a1d95d2b-7351-41c5-882d-8bb7d44ea005"
-token = "APP_USR-3511654696651487-021221-0d2c4937daae34616ca89531f40d2ad3-2264229261"
+public_key = "MeuTOKEN5"
+token = "MeuTOKEN"
 
 def criar_pagamento(itens_pedido, link):
     sdk = mercadopago.SDK(token)
